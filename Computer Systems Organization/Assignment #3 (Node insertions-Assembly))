@@ -1,0 +1,15 @@
+Assignment 3
+Due Tuesday, November 21 at 11:55pm
+with an automatic extension to Sunday, November 26 at 11:55pm
+
+This is an assembly language programming assignment in which you have to write assembly code for inserting nodes containing employee information into a binary search tree and for removing nodes from the tree.
+
+I have provided a substantial amount of C code, including C code for the functions that you will be writing in assembly. First, you need to download one of the attached compressed files appropriate for your computer: assignment3_macos.tgz for macOS, assignment3_cygwin.tgz for Windows/Cygwin, or assignment3_macos.tgz for Linux.  As with the previous assignments, save and uncompress the downloaded file in the directory where you want to work on and compile your program. To uncompress the file, in a shell, type
+
+tar -xzvf filename
+
+where filename is the name of the file that you downloaded.
+
+One of the resulting files is "Assignment 3.pdf". It contains all the details of the assignment, along with some helpful hints.
+
+Please get started on this assignment right away! It is much more challenging than the small amount of assembly code you had to write for Assignment 2. As you can see, it is due the Tuesday before Thanksgiving, but you can have an automatic extension (without a penalty) until the Sunday of Thanksgiving weekend - but then don't blame me for ruining your holiday.
