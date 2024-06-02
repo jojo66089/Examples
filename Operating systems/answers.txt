@@ -1,0 +1,46 @@
+Name:Joshua Guillen 
+net ID:jg6949 
+NYU ID(N#): N12419949
+
+Collaborators (who you talked to about the lab, what you talked about):
+
+
+Source material that you consulted:
+https://stackoverflow.com/questions/6946708/script-command-needed-to-list-down-all-header-files-h-files-in-a-directory-r
+
+https://www.modernescpp.com/index.php/prefer-locks-to-mutexes/
+
+Other acknowledgments:
+
+
+-------------------------------------------------------------------------------
+Answers to exercises G1--G3:
+
+G1.) Informally, we are searching for all the files that carry the expression "void".
+First few lines:
+sthread.cpp:void smutex_init(smutex_t *mutex)
+sthread.cpp:void smutex_destroy(smutex_t *mutex)
+sthread.cpp:void smutex_lock(smutex_t *mutex)
+sthread.cpp:void smutex_unlock(smutex_t *mutex)
+sthread.cpp:void scond_signal(scond_t *cond, smutex_t *mutex __attribute__((unused)))
+sthread.cpp:void scond_broadcast(scond_t *cond, smutex_t *mutex __attribute__((unused)))
+sthread.cpp:void scond_wait(scond_t *cond, smutex_t *mutex)
+grep: build/estoresim: binary file matches
+grep: build/sthread.o: binary file matches
+sthread.h:typedef pthread_mutex_t smutex_t;
+sthread.h:void smutex_init(smutex_t *mutex);
+
+G2.) To search the file RequestGenerator.cpp for Tast objects would be
+grep "Task" RequestGenerator.cpp
+
+To search all header files for the keyword "return"
+
+grep "return" *.h
+
+G3.) When I ran that command I noticed that the all the lines returned had "void smutex" along with a different variation of either lock or unlock. This tells me that we are looking at all the files which contain mutexes or more specifically the "smutex" type. 
+-------------------------------------------------------------------------------
+
+Anything else you'd like us to know:
+HI!
+
+Extra credit exercise(s) (describe what you coded):
