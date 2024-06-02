@@ -1,0 +1,22 @@
+Successor Arithmetic
+Define the four integer functions f0, f1, f2, f3 as follows:
+fipnq   " 2n if i   0,
+ni if i   1, 2, 3.
+(4)
+We want to implement these functions without any of the usual arithmetic operations,
+i.e., 􀀀, , , , or any other operations like squaring. Instead, you are only allowed
+to use the successor operation: n   n 􀀀 1 or n++ (sometimes denoted n   succ(n)).
+Of course, you are allowed to assign one variable to another (e.g., m   n).
+There is another requirement: if Tipnq is the time to compute fipnq, we want Tipnq   Θpfipnqq.
+(a) Implement each of these functions in their own Java class in one files F0123.java.
+You must have a main method that you can modify from Fib0.java. Put this file
+into your zip submission.
+(b) Again, we will re-do Part B of hw0 to determine (empirically) the number n2i (for
+i=0,1,2,3: The timing is done using the provided Timing.java class, and n2i is
+defined as follows:
+n2i   argmax
+n tFipnq takes less than 30 seconds of CPU timeu (5)
+CAREFUL: we only want to use 30 seconds, not 1 minute, of CPU time! It is to
+save you some wait time:)
+As in hw0 we want 4 screen shots, and four targets in make-include called
+myTest3, myTest4, myTest5, myTest6 to reproduce the screen shots.
