@@ -1,0 +1,1 @@
+This is my first swift application and it is a tic tac toe game that takes to active players. Very simple, but fundemnetal in my learning of swift. My goal is to implement a CPU as a way to level up in my coding knowledge for SWIFT.
